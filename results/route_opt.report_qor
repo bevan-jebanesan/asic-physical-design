@@ -1,0 +1,225 @@
+****************************************
+Report : qor
+Design : sort_proc
+Version: W-2024.09-SP2
+Date   : Wed Oct  8 16:06:11 2025
+****************************************
+Information: Timer using 'PrimeTime Delay Calculation, AWP, CRPR'. (TIM-050)
+
+
+Scenario           'mode_norm.fast.RCmin'
+Timing Path Group  'clk'
+----------------------------------------
+Levels of Logic:                     22
+Critical Path Length:              3.52
+Critical Path Slack:              -2.95
+Critical Path Clk Period:          1.30
+Total Negative Slack:          -1644.14
+No. of Violating Paths:            1138
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin'
+Timing Path Group  'FEEDTHROUGH'
+----------------------------------------
+Levels of Logic:                     10
+Critical Path Length:              2.37
+Critical Path Slack:              -1.47
+Critical Path Clk Period:          1.30
+Total Negative Slack:            -11.29
+No. of Violating Paths:               8
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin'
+Timing Path Group  'REGIN'
+----------------------------------------
+Levels of Logic:                     10
+Critical Path Length:              2.71
+Critical Path Slack:              -1.53
+Critical Path Clk Period:          1.30
+Total Negative Slack:          -1301.80
+No. of Violating Paths:            1162
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin'
+Timing Path Group  'REGOUT'
+----------------------------------------
+Levels of Logic:                      9
+Critical Path Length:              1.87
+Critical Path Slack:              -1.06
+Critical Path Clk Period:          1.30
+Total Negative Slack:            -12.86
+No. of Violating Paths:              17
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin_bc'
+Timing Path Group  'clk'
+----------------------------------------
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin_bc'
+Timing Path Group  'FEEDTHROUGH'
+----------------------------------------
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin_bc'
+Timing Path Group  'REGIN'
+----------------------------------------
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.fast.RCmin_bc'
+Timing Path Group  'REGOUT'
+----------------------------------------
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'mode_norm.slow.RCmax'
+Timing Path Group  'clk'
+----------------------------------------
+Levels of Logic:                     23
+Critical Path Length:             10.43
+Critical Path Slack:             -11.33
+Critical Path Clk Period:          1.30
+Total Negative Slack:          -9479.93
+No. of Violating Paths:            2303
+----------------------------------------
+
+Scenario           'mode_norm.slow.RCmax'
+Timing Path Group  'FEEDTHROUGH'
+----------------------------------------
+Levels of Logic:                     10
+Critical Path Length:              6.33
+Critical Path Slack:              -5.43
+Critical Path Clk Period:          1.30
+Total Negative Slack:            -42.05
+No. of Violating Paths:               8
+----------------------------------------
+
+Scenario           'mode_norm.slow.RCmax'
+Timing Path Group  'REGIN'
+----------------------------------------
+Levels of Logic:                     13
+Critical Path Length:              8.79
+Critical Path Slack:              -6.76
+Critical Path Clk Period:          1.30
+Total Negative Slack:          -6206.64
+No. of Violating Paths:            1174
+----------------------------------------
+
+Scenario           'mode_norm.slow.RCmax'
+Timing Path Group  'REGOUT'
+----------------------------------------
+Levels of Logic:                      9
+Critical Path Length:              5.58
+Critical Path Slack:              -4.87
+Critical Path Clk Period:          1.30
+Total Negative Slack:            -99.09
+No. of Violating Paths:              52
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:             43
+Hierarchical Port Count:            258
+Leaf Cell Count:                   8579
+Buf/Inv Cell Count:                1694
+Buf Cell Count:                     251
+Inv Cell Count:                    1443
+Combinational Cell Count:          7405
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:             1174
+   Integrated Clock-Gating Cell Count:                     43
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       1131
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:           120450.62
+Noncombinational Area:         99530.37
+Buf/Inv Area:                  25486.27
+Total Buffer Area:              9641.32
+Total Inverter Area:           15844.95
+Macro/Black Box Area:              0.00
+Net Area:                             0
+Net XLength:                  163050.65
+Net YLength:                  177755.28
+----------------------------------------
+Cell Area (netlist):                         219980.99
+Cell Area (netlist and physical only):       219980.99
+Net Length:                   340805.93
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:              8915
+Nets with Violations:                 4
+Max Trans Violations:                 3
+Max Cap Violations:                   1
+----------------------------------------
+
+1
+****************************************
+Report : qor
+        -summary
+Design : sort_proc
+Version: W-2024.09-SP2
+Date   : Wed Oct  8 16:06:11 2025
+****************************************
+Information: Timer using 'PrimeTime Delay Calculation, AWP, CRPR'. (TIM-050)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+mode_norm.fast.RCmin (Setup)          -2.95       -1932.22           1190
+mode_norm.slow.RCmax (Setup)         -11.33      -10063.80           2355
+Design             (Setup)           -11.33      -10063.80           2355
+
+mode_norm.fast.RCmin (Hold)            0.03           0.00              0
+mode_norm.fast.RCmin_bc (Hold)           0.03           0.00              0
+Design             (Hold)              0.03           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         219980.99
+Cell Area (netlist and physical only):       219980.99
+Nets with DRC Violations:        4
+1
